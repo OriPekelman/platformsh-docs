@@ -33,7 +33,8 @@ Supported:
 To integrate your Platform.sh project with an existing GitHub repository, you
 first need to generate a token on your GitHub user profile. Simply go to your
 account page on GitHub and click ``Edit profile``. Select the *Applications*
-tab and click ``Generate new token`` on the *Personal access tokens* section.
+tab and click `Generate new token <https://github.com/settings/tokens/new>`_ on
+the *Personal access tokens* section.
 
 Give it a description and only check the ``repo`` scope. Make sure you save the
 token somewhere.
@@ -59,6 +60,7 @@ Services* tab and click ``Add webhook``. Paste the Payload URL and click
 
 You can now start pushing code, creating new branch or opening pull request
 directly on your GitHub repository.
+
 
 .. _hipchat-hook:
 
