@@ -3,10 +3,7 @@
 Platform.sh documentation
 ====================================
 
-`Platform.sh <https://platform.sh>`_ is a cloud based hosting solution for development. This describes how to use (and benefit from) `Platform.sh <https://platform.sh>`_.
-
-To fully benefit from `Platform.sh <https://platform.sh>`_, it's recommended to install the `Command Line Interface (CLI) <https://github.com/platformsh/platformsh-cli>`_. Read more about the CLI :ref:`here <cli>`.
-
+`Platform.sh <https://platform.sh>`_ Platform.sh is a groundbreaking hosting and development tool for web applications. It extends a branch-merge workflow to infrastructure so that every branch can be tested as if it were in production, and scales for the largest sites. 
 
 .. toctree::
   :maxdepth: 2
@@ -15,6 +12,7 @@ To fully benefit from `Platform.sh <https://platform.sh>`_, it's recommended to 
   overview/index
 
 .. toctree::
+  :titlesonly:
   :maxdepth: 2
   :glob:
 
@@ -25,6 +23,11 @@ To fully benefit from `Platform.sh <https://platform.sh>`_, it's recommended to 
   :glob:
 
   toolstacks/index
+
+.. toctree::
+  :maxdepth: 3
+  :glob:
+
   integration/index
 
 .. toctree::
@@ -32,10 +35,3 @@ To fully benefit from `Platform.sh <https://platform.sh>`_, it's recommended to 
   :glob:
 
   reference/index
-  protective-block
-
-.. toctree::
-   :hidden:
-
-   glossary
-

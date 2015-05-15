@@ -14,4 +14,5 @@ Reference
   service-grid
   public-ip-addresses
   rest-api
+  ../protective-block
   
